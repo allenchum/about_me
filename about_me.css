@@ -1,0 +1,147 @@
+html{
+    background-color: #F6E7D2;
+}
+.navbar{
+    border-bottom:solid 20px #01B6AD;
+    border-radius: 0;
+    margin: 0;
+    background: #0A4958;
+    position: relative;
+    height: 100px;
+    font-size: 1.2em;
+    color: white;    
+    width: 100%;
+    padding: 1% 0;
+    z-index: 10;
+}
+.navbar-brand{
+    float: left;
+    min-height: 50px;
+    max-height: 100px;
+    padding: 0 15px 5px; 
+    position: absolute;
+    top:0px;
+}
+#myNavbar{
+    float: right;
+}
+.logo{
+    min-height: 70px;
+    max-height: 100px;
+}
+.navbar-inverse .navbar-nav li a{
+    color:#fff;
+    background: #1abc9c;
+    margin: 0 5px;
+    border: solid transparent;
+    border-radius: 10%;
+}
+.navbar-inverse .navbar-nav li a:hover{
+    color:#fff;
+    background: #22f1c8;
+    margin: 0 5px;
+    border: solid transparent;
+    border-radius: 10%; 
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus{
+    color:#fff;
+    background: #1abc9c;
+    margin: 0 5px;
+    border: solid transparent;
+    border-radius: 10%;    
+}
+.navbar-inverse .navbar-nav .active a:hover{
+    color:#fff;
+    background: #22f1c8;
+    margin: 0 5px;
+    border: solid transparent;
+    border-radius: 10%;    
+}
+
+
+#myCarousel{
+    position: relative;
+    z-index: 7;
+    border-bottom: solid 20px #01B6AD;
+}
+.item{
+    max-width: 1000px;
+    margin: 0 auto;    
+}
+h1{
+ position: relative;
+}
+body{
+    background: #F6E7D2;
+}
+
+
+.textOverImage{
+    position:relative;
+    width:300px;
+    height:300px;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat ;
+    transition:0.5s;
+    display: inline-block;
+    border: solid;
+    border-radius: 10%;
+    border-color: transparent; 
+  }
+  
+  .textOverImage:hover{
+    background-size:110%;
+  }
+  
+  .textOverImage:after{
+    position:absolute;
+    top:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space:pre-wrap;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0.6);
+    color:#fff;
+    padding:0 8px;
+    opacity:0;
+    content:attr(data-text);
+    transition:0.5s;
+    border: solid;
+    border-radius: 10%;
+    border-color: transparent; 
+  }
+  
+  .textOverImage:hover:after{
+    opacity:1;
+    top:0;
+    padding:8px;
+  }
+  
+  .textOverImage:first-line{
+    color:#fff;
+    font-weight:bold;
+    font-size:1.5em;
+  }
+
+.header{
+    background: #01B6AD;
+    color: #fff;
+    padding-bottom: 2px;
+    margin: 5px 0;    
+}
+
+
+h1{
+    font-family:'Kaushan Script', cursive;
+    font-size: 40px;
+    padding:10px 0;
+}
+.intro .content{
+    margin: 0 8%;
+}
+p{ 
+    font-size: 1.2em;
+}
